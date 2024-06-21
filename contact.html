@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Contact</title>
+    <link rel="stylesheet" href="stylecontact.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="cv.html">Resume</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="content">
+            <h2>Contact Me</h2>
+            
+            <div class="contact-form">
+                <form action="submit_contact_form.php" method="POST"> 
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="text" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+
+            <h2>Find Me Online</h2>
+            <p>Check out my profiles on:</p>
+            <ul class = "contactlinks">
+                <li><a href="https://github.com/jmedinamuriega" target="_blank">GitHub</a></li> 
+                <li><a href="https://www.linkedin.com/in/jmedinamuriega" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
